@@ -1,0 +1,18 @@
+.form-control {
+  margin-bottom: 10px;
+}
+#addFood {
+  margin-top: 20px;
+}
+.error {
+  color: red;
+  font-size: smaller;
+}
+.conationer{
+  display: flex;
+}
+.right{
+  position: relative;
+  top: 30px;
+  left: 40%;
+}

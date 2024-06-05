@@ -1,0 +1,130 @@
+*{
+    font-family: Josefin Sans;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 5px whitesmoke;
+}
+.logo{
+    width:75%;
+    display: inline-block; 
+    margin: 20px;
+}
+.filter {
+    width: 300px;
+    margin-top: 70px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: url("../../Images/resize-17122963191987800544bgfortables.jpg") ;
+}
+.allTables {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left:40px;
+    overflow-x: hidden;
+}
+.box {
+    width: 300px;
+    height: 360px;
+    margin: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.176), -2px -2px 15px rgba(0, 0, 0, 0.183); */
+    
+    background-color: rgba(222, 222, 222, 0.9);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box:hover {
+  box-shadow: 0px 0px 16px rgb(255, 255, 255);
+ transform:translateY(-15px)
+}
+.image {
+    width: 100%;
+}
+.image img {
+    width: 300px;
+    height: 200px;
+    margin-top: 2px ;
+}
+.tableCount{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.innerBox button {
+    margin-top: 30px;
+    margin-left: 98px;
+    width: 80px;
+}
+a{
+    color: black;   
+    text-decoration: none;   
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.cricle {
+    width: 100%;
+    background-color: rgb(152, 186, 216);
+    height: 30px;
+    border-top-left-radius: 10px;
+    text-align: center;     
+    border-top-right-radius: 10px;
+    font-size: 20px;
+}
+
+.userInfoForm {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background-color: white;
+    opacity: 0.95;
+    display: none;
+}
+.infoForm {
+   width: 300px;
+   height: 200px;
+   background-color: rgba(0, 0, 0, 0.831);   
+   border-radius: 12px;
+   margin: 200px auto;
+   opacity: 1;
+}
+.infoForm form {
+   margin: 20px;
+   position: relative;
+   top: 50px;
+   right: 10px;
+   
+}
+ input {
+    margin: 10px;
+ }
+.infoForm button {
+   position: relative;
+   left: 100px;
+}
+
+#mainLogo {
+    height:130px;
+    width:300px;
+}
+@media (max-width : 415px) {
+  #mainLogo{
+    height: 80px;
+    width: 150px;
+  }
+  #tableValue{
+    width: 100px;
+    margin-left: 40px;
+  }
+}

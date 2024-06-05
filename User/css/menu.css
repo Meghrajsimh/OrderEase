@@ -1,0 +1,363 @@
+body{
+    background-image: url("../../Images/vegetables-set-left-black-slate.jpg");
+    background-repeat: repeat;
+    overflow-x:hidden ;
+    font-family: Josefin Sans;
+    font-weight: 600;
+}
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    background-color: whitesmoke;
+}
+#itemValue{
+    width: 300px;
+    float: right;
+    margin-right: 15px;
+}
+.logo {
+    display: inline;
+   
+}
+.itemData {
+    display: flex;
+    width:100%;
+    height: 100% ;
+    position: relative;
+    left: 35px;
+    flex-wrap: wrap;
+}
+.itemDataOne {
+    width: 100%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.filter{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0px 22px 0px 0px;
+    background-color: whitesmoke;
+}
+.filter select {
+    margin-top: 90px;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.item{
+    width: 300px;
+    height: 415px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgba(222, 222, 222, 0.8);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.item img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;    
+    border-top-right-radius: 10px;
+}
+h5{
+    display:inline-block;
+}
+.item:hover{
+    transform:translateY(-15px);
+    box-shadow: 0px 0px 30px rgb(255, 255, 255,0.8);
+}
+ 
+p{
+    margin: 4px 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+option, select{
+    font-size: 15px;
+}
+span {
+    font-size: 17px;
+    font-weight: 500;
+}
+.info button {
+    margin-top: 10px ;
+    margin-left:115px ;
+}
+.test {
+    display: inline;
+    width: 100px;
+    height: 25px;
+    margin-left: 4px;
+}
+
+.popUp{
+    width:100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.845);
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    display: none;
+}
+.information{
+    width: 500px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgb(0, 0, 0,0.5);
+    background-color: rgb(239, 239, 239);
+}
+.information img{
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 10px;    
+  border-top-right-radius: 10px;
+}
+.information button {
+    margin-top: 20px ;
+    margin-left:220px ;
+}
+.discription span {
+    text-align: justify;
+}
+
+header {
+    display: flex;
+}
+.cartBtn {
+    width:53px ;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 200px;
+    cursor: pointer;
+    position: sticky;
+    top: 20px;
+    left: 88%;
+}
+#cartImage {
+ width: 50px;
+ height: 50px;
+ border-radius: 200px;
+}
+.cart {
+    height: 100%;
+    position: fixed;
+    padding: 15px;
+    top: 0px;
+    z-index: 10;
+    background-color: white;    
+    display: none;
+    width: 100%;
+    border-left: 1px solid black;
+}
+.orderTable{
+  height: 520px;
+  overflow: auto;
+}
+.closeBtn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+}
+.cartBtn:hover {
+    border: 1px solid rgb(188, 171, 149);
+    background-color: rgb(188, 171, 149);
+}
+.increment {
+    display: flex;
+}
+.endCart{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.489);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.stratCart{
+    display: flex;
+}
+
+.allOrder {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: white; 
+    position: fixed;
+    top:100px;
+    z-index: 5;
+ display: none
+}
+
+#prevOrder{
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(169, 155, 155, 0.685);
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.circle {
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 163px;
+    height: 20px;
+    background-color: rgb(218, 59, 59);
+    border-radius: 2000px;
+    display: none;
+}
+.block {
+    display: block;;
+}
+.finalOrderBar {
+    height: 550px;
+    overflow: auto;
+}
+
+.countFood{
+    width: 25px;
+    height: 25px;
+    border-radius:200px ;
+    background-color: rgba(255, 0, 0, 0.687);
+    position:absolute;
+    top: 18px;
+    left: 91%;
+    z-index: 2;
+}
+
+#input {
+    font-size: 14px;
+    position: relative;
+    right: 1.5px;
+}
+
+.round {
+    border:none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 2000px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: -4px;
+    margin-top: 5px;
+    transition: 0.1s ease-in;
+}
+.round:hover {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(164, 156, 156, 0.831);
+    border: 2px solid rgba(255, 255, 255, 0.605);   
+}
+
+td {
+    font-size: 20px;
+}
+
+#mainLogo {
+    height:120px;
+    width: 300px;
+}
+
+
+@media (max-width : 460px) {
+  #mainLogo {
+    height: 80px;
+    width: 180px;
+  }
+  .cartBtn {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left:349px
+  }
+  #cartImage{
+    width: 40px;
+    height: 40px;
+  }
+  .filter{
+    width: 50%;
+  }
+  #itemValue {
+    position: relative;
+    left: 30px;
+    width: 120px;
+  }
+  .itemData {
+    position: relative;
+    left: 18px;
+  }
+  .item {
+    width: 160px;
+    height: 235px;
+    margin: 15px;
+  }
+  .item img {
+    height:120px ;
+  }
+  #prevOrder{
+    width: 190px;
+    font-size: 14px;
+  }
+  #firstTable{
+    width: 300px;
+  }
+  .closeBtn {
+    margin-left: 250px;
+  }
+  .circle {
+    position: absolute;
+    top: 8px;
+    left: 114px;
+  }
+  .information{
+     width: 294px;
+     height: 400px;
+     margin-top:115px;
+  }
+  .information p {
+    font-size: 15px;
+  }
+  .information span {
+    font-size: 13px;
+  }
+  .information img {
+    height: 150px;
+  }
+  .information button{
+    margin-top: 2px;
+    margin-left: 110px;
+    width: 60px;
+    height: 32px;
+  }
+  .info p {
+    font-size: 11px;
+  }
+  .info span {
+    font-size: 8px;
+  }
+
+ option , select{
+    font-size: 10px;
+}
+.info button {
+    width: 44px;
+    height: 26px;
+    margin-left: 54px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+}
